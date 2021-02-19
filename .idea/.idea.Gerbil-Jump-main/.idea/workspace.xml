@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf1681bd-1a5a-40b4-a685-a549565260e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Script/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/DataHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/UIHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SaveLoadManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oVvFnKAjJfh9a4nlEKnzWESFjB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf1681bd-1a5a-40b4-a685-a549565260e7" name="Default Changelist" comment="" />
+      <created>1613384477948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613384477948</updated>
+      <workItem from="1613384498688" duration="2540000" />
+      <workItem from="1613585673675" duration="3036000" />
+      <workItem from="1613747099101" duration="6166000" />
+      <workItem from="1613761875247" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
