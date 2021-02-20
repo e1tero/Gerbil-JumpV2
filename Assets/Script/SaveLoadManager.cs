@@ -3,7 +3,7 @@
 public class SaveLoadManager : MonoBehaviour
 {
     public Save sv = new Save();
-    public SaveLoadManager instance;
+    public static SaveLoadManager instance;
 
     void Awake()
     {
@@ -29,20 +29,31 @@ public class SaveLoadManager : MonoBehaviour
         }
         else
         {
+            Debug.Log(PlayerPrefs.GetString("Save"));
+
             sv = JsonUtility.FromJson<Save>(PlayerPrefs.GetString("Save"));
+
             DataHolder.firstStart = false;
-            Debug.Log("save was loaded");
             LoadGame();
+
+            Debug.Log("save was loaded " + sv.money);
         }
     }
     public void SaveGame()
     {
+        Debug.Log("Begin saving");
+
         sv.money = DataHolder.money;
         sv.indexLocation = DataHolder.indexActiveLocation;
         sv.indexSkin = DataHolder.indexActiveSkin;
         sv.LocationActiveItems = DataHolder.activeLocations;
         sv.SkinActiveItems = DataHolder.activeSkins;
         sv.recordPoints = DataHolder.recordPoints;
+
+        PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
+        PlayerPrefs.Save();
+
+        Debug.Log("End saving " + sv.money);
     }
 
 
@@ -55,15 +66,12 @@ public class SaveLoadManager : MonoBehaviour
 #if UNITY_ANDROID && !UNITY_EDITOR
     private void OnApplicationPause(bool pause)
     {
-        SaveGame();
-        PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
+        if (pause)
+        {
+            SaveGame();
+        }
     }
 #endif
-    private void OnApplicationQuit()
-    {
-        SaveGame();
-        PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
-    }
 }
 
 [System.Serializable]

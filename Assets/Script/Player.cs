@@ -39,6 +39,8 @@ public class Player : MonoBehaviour
         camAnim = camera.GetComponent<Animator>();
         Time.timeScale = 1;
         InvokeRepeating("AddSpeed",3f,3f);
+
+        saveData.recordPoints = DataHolder.recordPoints;
     }
     
     void LateUpdate()
@@ -120,6 +122,10 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1f);
         Debug.Log(points);
+
+        DataHolder.recordPoints = saveData.recordPoints;
+        SaveLoadManager.instance.SaveGame();
+
         SceneManager.LoadScene("DeathScene");
     }
 
