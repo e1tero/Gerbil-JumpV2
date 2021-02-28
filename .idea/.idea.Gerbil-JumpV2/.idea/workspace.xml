@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8839765-4048-4e3c-b11f-8b4d918e24b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/180rotate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/180rotate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/1location/Left lose block.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/1location/Left lose block.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/UIHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/UIHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="a8839765-4048-4e3c-b11f-8b4d918e24b2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +56,7 @@
       <updated>1614162375887</updated>
       <workItem from="1614162397518" duration="1306000" />
       <workItem from="1614177179242" duration="628000" />
-      <workItem from="1614508018160" duration="3827000" />
+      <workItem from="1614508018160" duration="4162000" />
     </task>
     <servers />
   </component>
