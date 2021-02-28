@@ -33,6 +33,11 @@ public class UIHelper : MonoBehaviour
     {
         SceneManager.LoadScene("Shop");
     }
+    
+    public void OpenInstruction()
+    {
+        SceneManager.LoadScene("Instruction");
+    }
     public void OpenMenu()
     {
         SceneManager.LoadScene("Menu");
